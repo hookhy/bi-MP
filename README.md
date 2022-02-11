@@ -18,7 +18,7 @@ Various categories contains scripts from [benchmarking-gnns](https://github.com/
 
 # How to apply the Bilateral-MP to a class of MP-GNN layer
 
-[Follows the instructions]() to add a custom bilateral-MP layer.
+[Follows the instructions](https://github.com/hookhy/bi-MP/blob/HyeokjinK/add_bimp.md) to add a custom bilateral-MP layer.
 
 # Reference
 
