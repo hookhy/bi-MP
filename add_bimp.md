@@ -51,6 +51,7 @@ in the __init()__, and __forward()__, respectively:
         # write your init code here
         
         # (step2) calculate the modular gradient (assign_dim is a hyperparameter)
+        self.sigma = sigma # control factor
         self.s1 = nn.Linear(in_dim,  out_dim, bias=True)
         self.s2 = nn.Linear(out_dim,  self.assign_dim, bias=True)
         self.metric = nn.Linear( self.assign_dim,  self.assign_dim, bias=True)
