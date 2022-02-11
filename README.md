@@ -10,13 +10,13 @@ Various categories contains scripts from [benchmarking-gnns](https://github.com/
 
 # Reference
 
-  @misc{kwon2022boosting,
-      title={Boosting Graph Neural Networks by Injecting Pooling in Message Passing}, <br>
-      author={Hyeokjin Kwon and Jong-Min Lee}, <br>
-      year={2022}, <br>
-      eprint={2202.04768}, <br>
-      archivePrefix={arXiv}, <br>
-      primaryClass={cs.LG} <br>
-  }
+  @misc{kwon2022boosting, <br>
+       title={Boosting Graph Neural Networks by Injecting Pooling in Message Passing}, <br>
+       author={Hyeokjin Kwon and Jong-Min Lee}, <br>
+       year={2022}, <br>
+       eprint={2202.04768}, <br>
+       archivePrefix={arXiv}, <br>
+       primaryClass={cs.LG} <br>
+       }
 
 
