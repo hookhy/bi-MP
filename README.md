@@ -2,7 +2,7 @@
 
 We provide the implementaion & detail of the bilateral message passing [bi-MP](https://arxiv.org/abs/2202.04768) in PyTorch, DGL frameworks. 
 
-+ Analogous to the bilateral image filter, we propose a bi-MP scheme to address over-smoothing in classic MP GNNs.
++ Analogous to *the bilateral image filter*, we propose a bi-MP scheme to address over-smoothing in classic MP GNNs.
   
 + Instead of directly propagating information through local edges, the proposed model defines a pairwise modular gradient between nodes and uses it to apply a gating mechanism to the MP layer’s aggregating function. 
 
@@ -10,7 +10,7 @@ We provide the implementaion & detail of the bilateral message passing [bi-MP](h
 
 + The key intuition is that the propagation of useful information within the same node class survives while the extraneous noise between different classes is reduced. 
 
-+ Our proposed scheme can be generalized to all ordinary MP GNNs.
++ Our proposed scheme **can be generalized to all ordinary MP GNNs** (e.g. SOTA MP-GNNs such as GCN, GraphSAGE, and GAT).
 
 ![Figure1_upload](https://user-images.githubusercontent.com/84267304/152954507-846c98ec-3858-4143-b448-e10b072e7a9f.jpg)
 
