@@ -16,6 +16,10 @@ We provide the implementaion & detail of the bilateral message passing [bi-MP](h
 
 Various categories contains scripts from [benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
 
+# How to apply the Bilateral-MP to a class of MP-GNN layer
+
+[Follows the instructions]() to add a custom bilateral-MP layer.
+
 # Reference
 
   @misc{kwon2022boosting, <br>
