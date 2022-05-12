@@ -41,6 +41,13 @@ Our model achieves the following performance on :
 | Model name         | TEST MAE (mean,std) | Model Params (#Layers) |
 | ------------------ | ------------------- | ---------------------- |
 | bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
 
 
 ## Reference
