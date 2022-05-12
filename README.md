@@ -101,15 +101,6 @@ Our model achieves the following performance on :
 | bi-GraphSage (ours)|    64.088 (0.182)   |      490569 (16)       |
 | GraphSage          |    63.844 (0.110)   |      503350 (16)       |
 
-## Reference
 
-  @misc{kwon2022boosting, <br>
-       title={Boosting Graph Neural Networks by Injecting Pooling in Message Passing}, <br>
-       author={Hyeokjin Kwon and Jong-Min Lee}, <br>
-       year={2022}, <br>
-       eprint={2202.04768}, <br>
-       archivePrefix={arXiv}, <br>
-       primaryClass={cs.LG} <br>
-       }
 
 
