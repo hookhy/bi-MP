@@ -1,14 +1,8 @@
 # Bilateral Message Passing
 
-We provide the implementaion & detail of the bilateral message passing [bi-MP](https://arxiv.org/abs/2202.04768) in PyTorch, DGL frameworks. 
+This repository is the official implementation of [Bilateral Message Passing](https://arxiv.org/abs/2202.04768). 
 
 + Analogous to *the bilateral image filter*, we propose a bi-MP scheme to address over-smoothing in classic MP GNNs.
-  
-+ Instead of directly propagating information through local edges, the proposed model defines a pairwise modular gradient between nodes and uses it to apply a gating mechanism to the MP layer’s aggregating function. 
-
-+ More specifically, the bilateral-MP takes a soft assignment matrix of as input and extracts the modular gradient by applying metric learning layers to selectively transfer the messages.
-
-+ The key intuition is that the propagation of useful information within the same node class survives while the extraneous noise between different classes is reduced. 
 
 + Our proposed scheme **can be generalized to all ordinary MP GNNs** (e.g. SOTA MP-GNNs such as GCN, GraphSAGE, and GAT).
 
@@ -16,11 +10,42 @@ We provide the implementaion & detail of the bilateral message passing [bi-MP](h
 
 Various categories contains scripts from [benchmarking-gnns](https://github.com/graphdeeplearning/benchmarking-gnns).
 
-# How to apply the Bilateral-MP to a class of MP-GNN layer
+>📋   How to apply the Bilateral-MP to a class of MP-GNN layer
 
 [Follows the instructions](https://github.com/hookhy/bi-MP/blob/HyeokjinK/add_bimp.md) to add a custom bilateral-MP layer.
 
-# Reference
+## Requirements
+
+To install requirements:
+
+```setup
+# Install python environment
+conda env create -f environment_gpu.yml 
+
+# Activate environment
+conda activate benchmark_gnn
+```
+
+## Training & evaluation
+
+To train & evaluate the model(s) in the paper with specified dataset, and model, run this command:
+
+```train
+python main_{DatasetDependentName}.py --config Configpath/Configfname.json --gpu_id 0 --model ModelName
+```
+
+## Results
+
+Our model achieves the following performance on :
+
+### ZINC Dataset
+
+| Model name         | TEST MAE (mean,std) | Model Params (#Layers) |
+| ------------------ | ------------------- | ---------------------- |
+| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
+
+
+## Reference
 
   @misc{kwon2022boosting, <br>
        title={Boosting Graph Neural Networks by Injecting Pooling in Message Passing}, <br>
