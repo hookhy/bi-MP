@@ -38,17 +38,16 @@ Our model achieves the following performance on :
 
 ### ZINC Dataset
 
-| Model name         | TEST MAE (mean,std) | Model Params (#Layers) |
+| Model name         | TEST MAE (mean,std) | Model #Params (#Layers)|
 | ------------------ | ------------------- | ---------------------- |
 | bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-| bi-GatedGCN        |     0.166 (0.009)   |      511974 (16)       |
-
+| GatedGCN           |     0.214 (0.013)   |      505011 (16)       |
+| bi-GraphSage       |     0.245 (0.009)   |      516651 (16)       |
+| bi-GCN             |     0.276 (0.007)   |      536482 (16)       |
+| bi-GAT             |     0.277 (0.012)   |      535536 (16)       |
+| GCN                |     0.367 (0.011)   |      505079 (16)       |
+| GAT                |     0.384 (0.007)   |      531345 (16)       |
+| GraphSage          |     0.398 (0.002)   |      505341 (16)       |
 
 ## Reference
 
